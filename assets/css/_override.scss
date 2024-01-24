@@ -1,0 +1,49 @@
+header {
+  background-color: $themecolor2;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+.navbar-toggler {
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.down-arrow {
+  font-size: 13px;
+}
+
+.dropdown {
+  .show {
+    &[aria-expanded="true"] {
+      .down-arrow {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.nav-link {
+  color: $black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.nav {
+  margin-bottom: 0;
+}
+
+.dropdown {
+  position: static;
+}
+
+.dropdown-menu {
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown-menu>li {
+  display: inline-block;
+}
